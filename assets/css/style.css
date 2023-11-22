@@ -8,3 +8,19 @@
 html {
     font-family: sans-serif;
 }
+
+header {
+    background-color: black;
+    padding: 10px;
+}
+
+header div span {
+    background-color: #4A4A4A;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.container {
+    height: 100vh;
+}
