@@ -57,3 +57,21 @@ main > div {
     background-color: rgba(0, 0, 0, 0.4);
     padding: 5px;
 }
+
+footer {
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul {
+    position: relative;
+    color: white;
+    list-style-type: none;
+    text-transform: capitalize;
+}
+
+footer ul li {
+    position: absolute;
+}
