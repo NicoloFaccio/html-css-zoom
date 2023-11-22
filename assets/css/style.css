@@ -35,16 +35,17 @@ main > div {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;  
-    width: 100%;   
+      
 }
 
 .cams {
     position: relative;
-    flex-basis: calc((100% / 7) - (20px / 7));
+    flex-basis: calc(100% / 7 - 10px);
 }
 
 .photos {
     display: block;
+    width: 100%; 
 }
 
 .names {
