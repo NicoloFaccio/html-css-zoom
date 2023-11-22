@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
 }
 
 html {
@@ -34,7 +33,8 @@ header div span {
 main > div {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;  
+    gap: 10px; 
+    margin-top: 40px; 
       
 }
 
@@ -64,6 +64,9 @@ footer {
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 footer ul {
@@ -86,4 +89,14 @@ footer ul li span.item {
 
 footer ul li span.words {
     padding-left: 5px;
+}
+
+.green {
+    color: #4BC800;
+}
+
+footer > span {
+    color: red;
+    background-color: #4A4A4A;
+    padding: 30px 10px;
 }
