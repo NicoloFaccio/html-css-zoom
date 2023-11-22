@@ -19,8 +19,41 @@ header div span {
     padding: 5px;
     border-radius: 5px;
     margin: 5px;
+    text-transform: capitalize;
 }
 
 .container {
     height: 100vh;
+    background-color: black;
+
+}
+
+main > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+img {
+    display: block;
+}
+
+.cams {
+    position: relative;
+    width: 100%;
+}
+
+.photos {
+    flex-basis: calc((100% / 7) - (20px / 7));
+}
+
+.names {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    color: white;
+    background-color: black;
+    padding: 5px;
 }
