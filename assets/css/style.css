@@ -12,6 +12,8 @@ html {
 header {
     background-color: black;
     padding: 10px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 header div span {
@@ -20,6 +22,7 @@ header div span {
     border-radius: 5px;
     margin: 5px;
     text-transform: capitalize;
+    color: white;
 }
 
 .container {
@@ -32,20 +35,16 @@ main > div {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-
+    
 }
 
 img {
     display: block;
+    flex-basis: calc((100% / 7) - (20px / 7));
 }
 
 .cams {
     position: relative;
-    width: 100%;
-}
-
-.photos {
-    flex-basis: calc((100% / 7) - (20px / 7));
 }
 
 .names {
